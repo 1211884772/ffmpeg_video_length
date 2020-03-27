@@ -1,0 +1,22 @@
+{
+  "name": "ffmpeg_video_length/ffmpeg_get_video_length",
+  "type": "library",
+  "description": "获取视频长度，获取视频时长。",
+  "keywords": ["获取视频长度", "获取视频时长", "获取远程视频时长"],
+  "homepage": "https://github.com/1211884772/ffmpeg_video_length",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "authors": [
+      {
+          "name": "ffmpeg_video_length",
+          "email": "l1211884772@qq.com"
+      }
+  ],
+  "autoload": {
+      "psr-4": {
+          "ffmpeg_video_length\\ffmpeg_get_video_length\\": "src/"
+      }
+  }
+}
